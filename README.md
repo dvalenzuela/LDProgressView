@@ -1,3 +1,17 @@
+Version of LDProgressView (v1.2) that works with Carthage.  
+
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
+
+[Carthage](https://github.com/Carthage/Carthage)
+------------------
+
+Install with Carthage by adding the following to your `Cartfile`:
+```ogdl
+gitHub "https://github.com/dvalenzuela/LDProgressView" ~> 2.0.1
+```
+Run `carthage update` to build the framework and link against `Toast.framework`. Then, `#import <Toast/Toast.h>`.
+
 LDProgressView (v. 1.2)
 ==============
 
