@@ -27,8 +27,8 @@
 		FD0428542243DD2C007C7FB9 /* LDProgressViewSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0428522243DD2C007C7FB9 /* LDProgressViewSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD0428572243DD2C007C7FB9 /* LDProgressViewSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0428502243DD2C007C7FB9 /* LDProgressViewSDK.framework */; };
 		FD0428582243DD2C007C7FB9 /* LDProgressViewSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FD0428502243DD2C007C7FB9 /* LDProgressViewSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FD0428612243DD5C007C7FB9 /* LDProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = FD04285D2243DD5C007C7FB9 /* LDProgressView.h */; };
-		FD0428622243DD5C007C7FB9 /* UIColor+RGBValues.h in Headers */ = {isa = PBXBuildFile; fileRef = FD04285E2243DD5C007C7FB9 /* UIColor+RGBValues.h */; };
+		FD0428612243DD5C007C7FB9 /* LDProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = FD04285D2243DD5C007C7FB9 /* LDProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD0428622243DD5C007C7FB9 /* UIColor+RGBValues.h in Headers */ = {isa = PBXBuildFile; fileRef = FD04285E2243DD5C007C7FB9 /* UIColor+RGBValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD0428632243DD5C007C7FB9 /* LDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD04285F2243DD5C007C7FB9 /* LDProgressView.m */; };
 		FD0428642243DD5C007C7FB9 /* UIColor+RGBValues.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0428602243DD5C007C7FB9 /* UIColor+RGBValues.m */; };
 		FD0428652243DD86007C7FB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9213CE17F5D0C200B41CCC /* CoreGraphics.framework */; };
