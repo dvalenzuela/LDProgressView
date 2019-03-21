@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C2E5D8E17F70A0700104247 /* UIColor+RGBValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E5D8D17F70A0700104247 /* UIColor+RGBValues.m */; };
 		1C9213CD17F5D0C200B41CCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9213CC17F5D0C200B41CCC /* Foundation.framework */; };
 		1C9213CF17F5D0C200B41CCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9213CE17F5D0C200B41CCC /* CoreGraphics.framework */; };
 		1C9213D117F5D0C200B41CCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9213D017F5D0C200B41CCC /* UIKit.framework */; };
@@ -22,10 +21,21 @@
 		1C9213EE17F5D0C200B41CCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9213D017F5D0C200B41CCC /* UIKit.framework */; };
 		1C9213F617F5D0C200B41CCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C9213F417F5D0C200B41CCC /* InfoPlist.strings */; };
 		1C9213F817F5D0C200B41CCC /* LDProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9213F717F5D0C200B41CCC /* LDProgressViewTests.m */; };
-		1C92140317F5D0D000B41CCC /* LDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C92140217F5D0D000B41CCC /* LDProgressView.m */; };
 		1CD0E8591DF30D9700387898 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD0E8571DF30D9700387898 /* Default.png */; };
 		1CD0E85A1DF30D9700387898 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD0E8581DF30D9700387898 /* Default@2x.png */; };
 		1CD0E85C1DF30DA100387898 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD0E85B1DF30DA100387898 /* Default-568h@2x.png */; };
+		FD0428542243DD2C007C7FB9 /* LDProgressViewSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0428522243DD2C007C7FB9 /* LDProgressViewSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD0428572243DD2C007C7FB9 /* LDProgressViewSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0428502243DD2C007C7FB9 /* LDProgressViewSDK.framework */; };
+		FD0428582243DD2C007C7FB9 /* LDProgressViewSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FD0428502243DD2C007C7FB9 /* LDProgressViewSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FD0428612243DD5C007C7FB9 /* LDProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = FD04285D2243DD5C007C7FB9 /* LDProgressView.h */; };
+		FD0428622243DD5C007C7FB9 /* UIColor+RGBValues.h in Headers */ = {isa = PBXBuildFile; fileRef = FD04285E2243DD5C007C7FB9 /* UIColor+RGBValues.h */; };
+		FD0428632243DD5C007C7FB9 /* LDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD04285F2243DD5C007C7FB9 /* LDProgressView.m */; };
+		FD0428642243DD5C007C7FB9 /* UIColor+RGBValues.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0428602243DD5C007C7FB9 /* UIColor+RGBValues.m */; };
+		FD0428652243DD86007C7FB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9213CE17F5D0C200B41CCC /* CoreGraphics.framework */; };
+		FD0428662243DD8A007C7FB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9213D017F5D0C200B41CCC /* UIKit.framework */; };
+		FD0428672243DD8F007C7FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9213CC17F5D0C200B41CCC /* Foundation.framework */; };
+		FD0428682243DDE7007C7FB9 /* LDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD04285F2243DD5C007C7FB9 /* LDProgressView.m */; };
+		FD0428692243DDEA007C7FB9 /* UIColor+RGBValues.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0428602243DD5C007C7FB9 /* UIColor+RGBValues.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +48,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FD04285C2243DD2C007C7FB9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FD0428582243DD2C007C7FB9 /* LDProgressViewSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		1C2E5D8C17F70A0700104247 /* UIColor+RGBValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBValues.h"; sourceTree = "<group>"; };
-		1C2E5D8D17F70A0700104247 /* UIColor+RGBValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBValues.m"; sourceTree = "<group>"; };
 		1C9213C917F5D0C200B41CCC /* LDProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9213CC17F5D0C200B41CCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C9213CE17F5D0C200B41CCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,11 +82,16 @@
 		1C9213F317F5D0C200B41CCC /* LDProgressViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LDProgressViewTests-Info.plist"; sourceTree = "<group>"; };
 		1C9213F517F5D0C200B41CCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C9213F717F5D0C200B41CCC /* LDProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDProgressViewTests.m; sourceTree = "<group>"; };
-		1C92140117F5D0D000B41CCC /* LDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDProgressView.h; sourceTree = "<group>"; };
-		1C92140217F5D0D000B41CCC /* LDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDProgressView.m; sourceTree = "<group>"; };
 		1CD0E8571DF30D9700387898 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1CD0E8581DF30D9700387898 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1CD0E85B1DF30DA100387898 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FD0428502243DD2C007C7FB9 /* LDProgressViewSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LDProgressViewSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0428522243DD2C007C7FB9 /* LDProgressViewSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDProgressViewSDK.h; sourceTree = "<group>"; };
+		FD0428532243DD2C007C7FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD04285D2243DD5C007C7FB9 /* LDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDProgressView.h; sourceTree = "<group>"; };
+		FD04285E2243DD5C007C7FB9 /* UIColor+RGBValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBValues.h"; sourceTree = "<group>"; };
+		FD04285F2243DD5C007C7FB9 /* LDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDProgressView.m; sourceTree = "<group>"; };
+		FD0428602243DD5C007C7FB9 /* UIColor+RGBValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBValues.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C9213CF17F5D0C200B41CCC /* CoreGraphics.framework in Frameworks */,
+				FD0428572243DD2C007C7FB9 /* LDProgressViewSDK.framework in Frameworks */,
 				1C9213D117F5D0C200B41CCC /* UIKit.framework in Frameworks */,
 				1C9213CD17F5D0C200B41CCC /* Foundation.framework in Frameworks */,
 			);
@@ -88,6 +116,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD04284D2243DD2C007C7FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0428672243DD8F007C7FB9 /* Foundation.framework in Frameworks */,
+				FD0428662243DD8A007C7FB9 /* UIKit.framework in Frameworks */,
+				FD0428652243DD86007C7FB9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,6 +134,7 @@
 			children = (
 				1C9213D217F5D0C200B41CCC /* LDProgressView */,
 				1C9213F117F5D0C200B41CCC /* LDProgressViewTests */,
+				FD0428512243DD2C007C7FB9 /* LDProgressViewSDK */,
 				1C9213CB17F5D0C200B41CCC /* Frameworks */,
 				1C9213CA17F5D0C200B41CCC /* Products */,
 			);
@@ -106,6 +145,7 @@
 			children = (
 				1C9213C917F5D0C200B41CCC /* LDProgressView.app */,
 				1C9213EA17F5D0C200B41CCC /* LDProgressViewTests.xctest */,
+				FD0428502243DD2C007C7FB9 /* LDProgressViewSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,10 +169,6 @@
 				1C9213DE17F5D0C200B41CCC /* Main.storyboard */,
 				1C9213E117F5D0C200B41CCC /* LDViewController.h */,
 				1C9213E217F5D0C200B41CCC /* LDViewController.m */,
-				1C92140117F5D0D000B41CCC /* LDProgressView.h */,
-				1C92140217F5D0D000B41CCC /* LDProgressView.m */,
-				1C2E5D8C17F70A0700104247 /* UIColor+RGBValues.h */,
-				1C2E5D8D17F70A0700104247 /* UIColor+RGBValues.m */,
 				1C9213E417F5D0C200B41CCC /* Images.xcassets */,
 				1C9213D317F5D0C200B41CCC /* Supporting Files */,
 			);
@@ -171,7 +207,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FD0428512243DD2C007C7FB9 /* LDProgressViewSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FD04285D2243DD5C007C7FB9 /* LDProgressView.h */,
+				FD04285F2243DD5C007C7FB9 /* LDProgressView.m */,
+				FD04285E2243DD5C007C7FB9 /* UIColor+RGBValues.h */,
+				FD0428602243DD5C007C7FB9 /* UIColor+RGBValues.m */,
+				FD0428522243DD2C007C7FB9 /* LDProgressViewSDK.h */,
+				FD0428532243DD2C007C7FB9 /* Info.plist */,
+			);
+			path = LDProgressViewSDK;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FD04284B2243DD2C007C7FB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0428612243DD5C007C7FB9 /* LDProgressView.h in Headers */,
+				FD0428622243DD5C007C7FB9 /* UIColor+RGBValues.h in Headers */,
+				FD0428542243DD2C007C7FB9 /* LDProgressViewSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1C9213C817F5D0C200B41CCC /* LDProgressView */ = {
@@ -181,6 +243,7 @@
 				1C9213C517F5D0C200B41CCC /* Sources */,
 				1C9213C617F5D0C200B41CCC /* Frameworks */,
 				1C9213C717F5D0C200B41CCC /* Resources */,
+				FD04285C2243DD2C007C7FB9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,6 +272,24 @@
 			productReference = 1C9213EA17F5D0C200B41CCC /* LDProgressViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FD04284F2243DD2C007C7FB9 /* LDProgressViewSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD04285B2243DD2C007C7FB9 /* Build configuration list for PBXNativeTarget "LDProgressViewSDK" */;
+			buildPhases = (
+				FD04284B2243DD2C007C7FB9 /* Headers */,
+				FD04284C2243DD2C007C7FB9 /* Sources */,
+				FD04284D2243DD2C007C7FB9 /* Frameworks */,
+				FD04284E2243DD2C007C7FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDProgressViewSDK;
+			productName = LDProgressViewSDK;
+			productReference = FD0428502243DD2C007C7FB9 /* LDProgressViewSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -221,6 +302,10 @@
 				TargetAttributes = {
 					1C9213E917F5D0C200B41CCC = {
 						TestTargetID = 1C9213C817F5D0C200B41CCC;
+					};
+					FD04284F2243DD2C007C7FB9 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -239,6 +324,7 @@
 			targets = (
 				1C9213C817F5D0C200B41CCC /* LDProgressView */,
 				1C9213E917F5D0C200B41CCC /* LDProgressViewTests */,
+				FD04284F2243DD2C007C7FB9 /* LDProgressViewSDK */,
 			);
 		};
 /* End PBXProject section */
@@ -265,6 +351,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD04284E2243DD2C007C7FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -272,11 +365,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C2E5D8E17F70A0700104247 /* UIColor+RGBValues.m in Sources */,
+				FD0428692243DDEA007C7FB9 /* UIColor+RGBValues.m in Sources */,
 				1C9213DD17F5D0C200B41CCC /* LDAppDelegate.m in Sources */,
 				1C9213D917F5D0C200B41CCC /* main.m in Sources */,
 				1C9213E317F5D0C200B41CCC /* LDViewController.m in Sources */,
-				1C92140317F5D0D000B41CCC /* LDProgressView.m in Sources */,
+				FD0428682243DDE7007C7FB9 /* LDProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +378,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C9213F817F5D0C200B41CCC /* LDProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD04284C2243DD2C007C7FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0428632243DD5C007C7FB9 /* LDProgressView.m in Sources */,
+				FD0428642243DD5C007C7FB9 /* UIColor+RGBValues.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +514,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LDProgressView/LDProgressView-Prefix.pch";
 				INFOPLIST_FILE = "LDProgressView/LDProgressView-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lightdesign.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -426,9 +530,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LDProgressView/LDProgressView-Prefix.pch";
 				INFOPLIST_FILE = "LDProgressView/LDProgressView-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lightdesign.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -477,6 +583,91 @@
 			};
 			name = Release;
 		};
+		FD0428592243DD2C007C7FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = LDProgressViewSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.e2.LDProgressViewSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD04285A2243DD2C007C7FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = LDProgressViewSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.e2.LDProgressViewSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -503,6 +694,15 @@
 			buildConfigurations = (
 				1C9213FF17F5D0C200B41CCC /* Debug */,
 				1C92140017F5D0C200B41CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD04285B2243DD2C007C7FB9 /* Build configuration list for PBXNativeTarget "LDProgressViewSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0428592243DD2C007C7FB9 /* Debug */,
+				FD04285A2243DD2C007C7FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
